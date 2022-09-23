@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Question</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="ques.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="header_part d-flex justify-content-between m-4">
+                    <div class="headr">
+                        <p>Quiz Portal</p>
+                    </div>
+                    <div class="menubar">
+                        <ul class="d-flex">
+                            <a href="Home.html">
+                                <li>Home</li>
+                            </a>
+                            <a href="About.html">
+                                <li>About us</li>
+                            </a>
+                            <a href="Contact.html">
+                                <li>Contact</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+               
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Questions Adding Form -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="parent_div d-flex justify-content-center">
+                    <form action="insert.php" method="POST">
+                    <div class="child_div">
+                        <h4>Enter Quiz Name:</h4>
+                        <input class="inputs" type="text" name="quiz_name">
+                        <h4>Select Your Language</h4>
+                        <select name="language">
+                            <option value="C">C</option>
+                            <option value="JAVA">JAVA</option>
+                            <option value="C++">C++</option>
+                            <option value="HTML">HTML</option>
+                            <option value="JAVASCRIPT">JAVASCRIPT</option>
+                            <option value="PHP">PHP</option>
+                        </select>
+                        <div class="form_data mt-4">
+           
+                               <ul>
+                                   <li>
+                                       <p>Total Number of Questions </p>
+                                       <input type="number" id="count" value="1" name="q_num" class="special" placeholder="Count" max="25" min="1">
+                                   </li>
+                                   <br>
+                                   
+                                   <br>
+                                   <input class="btn btn-primary" id="SubmitBtn" type='submit' value='Submit' name='submit'>
+                                
+
+                               </ul>
+                        
+                            
+
+                        </div>
+                     
+                      
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

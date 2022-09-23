@@ -1,0 +1,212 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.bgimage{
+	background-image: url("bg9.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.menu{
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.7);
+}
+
+.leftmenu{
+	width: 10%;
+	line-height: 100px;
+	float: left;
+}
+
+.leftmenu h4{
+	font-family: 'Gugi';
+	padding-left: 70px;
+	font-weight: bold;
+	color: white;
+	font-size: 22px;
+}
+
+.rightmenu{
+	width:85%;
+	height: 100px;
+	float: right;
+}
+
+.rightmenu ul{
+	margin-left: 520px;
+}
+
+.rightmenu ul li {
+	font-family: 'Gugi';
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color:white;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 40px;
+	text-transform: uppercase;
+}
+
+#rightmenus ul{
+	margin-left: 520px;
+}
+
+#rightmenus ul li {
+	font-family: 'Gugi';
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color:white;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 40px;
+	text-transform: uppercase;
+}
+
+
+#firstlist{
+	color: orange;
+}
+
+.rightmenu ul li:hover{
+	color: orange;
+}
+
+a:link, a:visited {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  color:orange;
+}
+
+.profiletable table {
+ 	border: 1px solid black;
+	width: 75%;
+	background-color: #FFFFFFFF;
+	opacity: 0.7;
+	table-align: center;
+}
+
+.profiletable td {
+	text-align: left;
+	padding: 20px;
+}
+
+.insttable table {
+ 	border: 1px solid black;
+	width: 40%;
+	background-color: #FFFFFFFF;
+	opacity: 0.7;
+	table-align: center;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.options  {
+ 	border: 1px solid black;
+	width: 40%;
+	background-color: #FFFFFFFF;
+	opacity: 0.7;
+	align: center;
+padding: 10px;
+}
+
+.insttable td {
+	text-align: left;
+	padding: 10px;
+}
+
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text{
+	width: 100%;
+	margin-top: 40px;
+	text-align: center;
+	color:white;
+}
+
+
+.text h1{
+	font-size:50px;
+	font-family: 'Gugi';
+	font-weight: 300px;
+}
+
+.text h2{
+	font-size:28px;
+	font-family: 'Gugi';
+	font-weight: 150px;
+}
+
+.text h3{
+	font-size: 17px;
+	font-family: 'Times New Roman', serif;
+}
+
+.text p{
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: rgba(0,0,0,0.5);
+	width: 250px;
+	text-align: left;
+	margin-left: 30px;
+	padding: 10px;
+}
+
+.text h4{
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: rgba(0,0,0,0.5);
+}
+
+#buttonone{
+	background-color: white;
+	border: none;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 40px;
+	width: 150px;
+	font-family: 'Gugi';
+	margin-top: 25px;
+	border: 3px solid white;
+   	cursor: pointer;
+}
+#buttontwo{
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 25px;
+	margin-top: 5px;
+	width: 150px;
+	font-family: 'Gugi';
+	border: 1px solid black;
+   	cursor: pointer;
+}
+
+#buttonwide{
+	background-color: white;
+	border: none;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 40px;
+	width: 200px;
+	font-family: 'Gugi';
+	margin-top: 15px;
+	border: 3px solid white;
+   	cursor: pointer;
+}

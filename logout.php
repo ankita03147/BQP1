@@ -1,0 +1,9 @@
+<?php
+session_start();
+unset($_SESSION["id"]);
+unset($_SESSION["firstname"]);
+unset($_SESSION["lastname"]);
+unset($_SESSION["email"]);
+unset($_SESSION["loggedin"]);
+header("Location:home.html");
+?>
